@@ -1,0 +1,4 @@
+gcc -o ip_writer ip_writer.c
+gcc -o mapper mapper.h listen.c mapper.c
+g++ -o test_client raptor_code.h raptor_encoder.cpp raptor_decoder.cpp help_math.cpp test_client.c
+g++ -o server libsci.h raptor_code.h raptor_encoder.cpp raptor_decoder.cpp help_math.cpp libsci.c server.cpp 

@@ -1,0 +1,7 @@
+error code:
+#1 connect error
+#2 send error 
+#3 recv error
+#4 Communication error: msg recv server info, which is wrong
+#5 system error 
+#6 decode error 

@@ -1,0 +1,5 @@
+#!/bin/bash
+PATH=$PATH:.
+PUBLIC_IP=`wget http://ipecho.net/plain -O - -q ; echo`
+echo "Public_IP:" $PUBLIC_IP > localip
+./ip_writer >> localip

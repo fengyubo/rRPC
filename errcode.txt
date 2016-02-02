@@ -1,0 +1,9 @@
+//error 1:lenth_buffer more than BLOCK_SIZE
+//error 2:pdes_block buffer lenth less than BLOCK_SIZE
+//error 3:Encodr _K is quite small and due to unclear reasons the process can not continue
+//error 4:in GE _K is quite small and due to unclear reasons the process can not continue
+//error 5:The number is Encode sysmbols that Decoder has been recieved is not enough
+//error 6: NULL error  
+//error 7: _K error
+//error 8: matrix operation stack overflow//unnecessary!
+//error 9: decode algorithm choose error

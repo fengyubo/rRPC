@@ -1,0 +1,4 @@
+#!/bin/sh
+ipcrm -m `ipcs -m | grep "0x000063bf" | awk '{print $2}'`
+ipcrm -m `ipcs -m | grep "0x000063c0" | awk '{print $2}'`
+ipcrm -m `ipcs -m | grep "0x000063be" | awk '{print $2}'`
